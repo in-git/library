@@ -1,0 +1,18 @@
+.system__icon {
+	height: 32px;
+	padding: 0 8px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	font-size: 16px;
+	border-radius: var(--radius);
+
+	&:hover {
+		background: var(--hover-bg);
+		svg {
+			animation: system-icon var(--transition) ease-in-out;
+		}
+	}
+}

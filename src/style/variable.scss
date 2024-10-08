@@ -1,0 +1,27 @@
+:root {
+  --secondary: #ece9ea;
+  /* 多处复用，谨慎修改 */
+  --radius: 4px;
+  /* 动画持续时间 */
+  --transition: 0.2s;
+  /* animate 动画持续时间，多处复用 */
+  --animate-duration: var(--transition);
+  /* 文本，全局统一,非必要，勿改动*/
+  --font-size: 12px;
+  /* 主题样式，谨慎修改 */
+  --primary: #3785fa;
+  /* 主题背景色 */
+  --color-primary-bg: #e6f4ff;
+  /* 鼠标hover的背景色 */
+  --hover-bg: rgba(196, 198, 202, 0.3);
+  --background-color: #0000000a;
+  --border-color: #69696913;
+  --active-bg: rgba(196, 198, 202, 0.3);
+  --underpainting: #12312312;
+  /* 渐变背景颜色 */
+  --linear-gradient: -webkit-linear-gradient(bottom left, #8064ff, #07a6f0, #9307f0);
+
+  /* 鼠标样式 */
+  --cursor: default;
+  --cursor-pointer: pointer;
+}
