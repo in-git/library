@@ -1,6 +1,7 @@
 <template>
   <ConfigProvider :locale="zh_CN">
     <Home />
+    <div id="svg-container" class="fixed h-screen top-0 left-0"></div>
   </ConfigProvider>
 </template>
 

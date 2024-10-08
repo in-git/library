@@ -8,10 +8,17 @@ export default createRouter({
       component: () => import('@/views/modules/main/Main.vue'),
     },
     {
-      path: '/',
+      path: '/login',
       name: 'login',
       meta: { title: '' },
       component: () => import('@/views/login/login.vue'),
+      children: [],
+    },
+    {
+      path: '/target-line',
+      name: 'target-line',
+      meta: { title: '' },
+      component: () => import('@/views/modules/target-line/TargetLine.vue'),
       children: [],
     },
   ],

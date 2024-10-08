@@ -16,6 +16,7 @@
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
     "@cyhnkckali/vue3-color-picker": "^1.1.9",
+    "@svgdotjs/svg.js": "^3.2.4",
     "@vueup/vue-quill": "latest",
     "@vueuse/core": "^10.11.0",
     "@vueuse/integrations": "^10.11.0",

@@ -1,7 +1,7 @@
 <template>
   <a-layout class="h-[100vh]">
     <a-layout-header>页面标题</a-layout-header>
-    <a-layout-content>
+    <a-layout-content class="relative">
       <RouterView />
     </a-layout-content>
     <a-layout-footer>
